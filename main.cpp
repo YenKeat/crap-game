@@ -69,6 +69,8 @@ int main()
 			cout << setw(15) << "Rounds" << setw(20) << "Win Rate" << endl;
 		}
 
+		numberCounts++;
+		
 		if (numberCounts == 1 || numberCounts == 10 || numberCounts == 100 || numberCounts == 1000|| numberCounts == 10000 
 			|| numberCounts == 100000 || numberCounts == 1000000)
 		{
@@ -77,8 +79,6 @@ int main()
 			
 			cout << endl;
 		}
-
-		numberCounts++;
 	}
 
   
